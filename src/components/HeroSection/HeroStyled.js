@@ -1,23 +1,19 @@
 import styled from "styled-components";
 import _default from "../../themes/default";
 
-
 export const HeroContainer = styled.div`
   background-color: rgb(10, 25, 47);
   display: flex;
   justify-content: center;
-  align-items: center;
   position: relative;
   padding: 80px 30px;
-  padding-left: 100px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
   @media (max-width: 640) {
     padding: 32px 16px;
   }
-
-  overflow: hidden:
+  z-index: 1;
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
@@ -32,6 +28,24 @@ export const HeroInnerContainer = styled.div`
 
   @media (max-width: 960px) {
     flex-direction: column;
+  }
+`;
+
+export const HeroRightContainer = styled.div`
+  width: 400px;
+  display: flex;
+  order: 2;
+  justify-content: end;
+  gap: 12px;
+  @media (max-width: 960px) {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: 640px) {
+    margin-bottom: 30px;
   }
 `;
 
@@ -72,7 +86,7 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 50px;
+  font-size: 40px;
   display: flex;
   gap: 12px;
   color: #8892B0;
@@ -99,7 +113,6 @@ export const SubTitle = styled.div`
   width: 500px;
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-size: 18px;
-  // line-height: 32px;
   margin: 50px 80px 70px 0px;
   color: #8892B0;
 
@@ -110,16 +123,10 @@ export const SubTitle = styled.div`
   }
 
   @media (max-width: 640px) {
-    width: 400px;
+    width: 450px;
     font-size: 18px;
-    line-height: 32px;
     margin-left: 50px;
     margin-bottom: 5px;
-  }
-  @media (max-width: 450px) {
-    width: 350px;
-    font-size: 14px;
-    margin-left: 60px;
   }
 `;
 
@@ -135,6 +142,26 @@ export const ResumeButton =styled.a`
     text-decoration: none;
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    margin-top: 30px;
+    margin-top: 50px;
     
 `
+
+export const Img = styled.img`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.primary};
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+`;

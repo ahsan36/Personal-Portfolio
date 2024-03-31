@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Hero from './components/HeroSection/Hero'
-import About from './components/About/About.jsx'
+// import About from './components/About/About.jsx'
 import Navbar from './components/Navbar/Navbar'
 import Skill from './components/Skills/Skills.jsx'
 import styled from "styled-components";
@@ -39,7 +39,7 @@ function App() {
         <Navbar />
         <Body>
           <Hero />
-          <About />
+          {/* <About /> */}
           <Wrapper>
             <Skill  />
             {/* <Experience /> */}

@@ -1,8 +1,9 @@
 import React from 'react'
-import { HeroContainer, HeroLeftContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton} from './HeroStyled.js';
+import { HeroContainer, HeroLeftContainer, HeroRightContainer, Img, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton} from './HeroStyled.js';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import './Hero.css'
+import HeroImg from '../../assets/Ahsan.png'
 
 const Hero = () => {
     return (
@@ -42,6 +43,11 @@ const Hero = () => {
                                 Get In Touch
                         </ResumeButton>
                     </HeroLeftContainer>
+
+                    <HeroRightContainer id="Right">
+
+                        <Img src={HeroImg} alt="hero-image" />
+                    </HeroRightContainer>
                 </HeroInnerContainer>
 
             </HeroContainer>
