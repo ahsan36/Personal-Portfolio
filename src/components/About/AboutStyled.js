@@ -159,7 +159,7 @@ export const Title = styled.div`
 
   @media (max-width: 450px) {
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 `;
 
