@@ -126,6 +126,14 @@ export const Img = styled.img`
     margin-bottom: 40px;
   }
 
+  @media (max-width: 450px) {
+    max-width: 200px;
+    max-height: 250px;
+    margin-right: 280px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+
 `;
 
 export const Title = styled.div`
@@ -146,6 +154,10 @@ export const Title = styled.div`
     line-height: 48px;
     margin-bottom: 8px;
     margin-left: 30px;
+  }
+
+  @media (max-width: 450px) {
+    margin-bottom: 0px;
   }
 `;
 
@@ -175,5 +187,11 @@ export const SubTitle = styled.div`
     width: 450px;
     font-size: 16px;
     line-height: 32px;
+  }
+
+  @media (max-width: 450px) {
+    width: 300px;
+    font-size: 14px;
+    margin-left: 70px;
   }
 `;

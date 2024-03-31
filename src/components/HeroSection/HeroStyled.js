@@ -115,6 +115,11 @@ export const SubTitle = styled.div`
     margin-left: 50px;
     margin-bottom: 5px;
   }
+  @media (max-width: 450px) {
+    width: 350px;
+    font-size: 14px;
+    margin-left: 90px;
+  }
 `;
 
 export const ResumeButton =styled.a`
