@@ -123,7 +123,7 @@ export const SubTitle = styled.div`
   }
 
   @media (max-width: 640px) {
-    width: 400px;
+    width: 350px;
     font-size: 18px;
     margin-left: 50px;
     margin-bottom: 5px;
