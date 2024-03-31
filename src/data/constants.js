@@ -8,7 +8,7 @@ export const Bio = {
       "Frontend Developer",
     ],
     description:
-      "I am a full stack developer. who is passionate about developing innovative and efficient full stack web applications. I have built several web applications.",
+      "I am a full stack developer. who is passionate about developing innovative and efficient full stack web applications. I have built several web applications. I'm always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ahsan36",
     insta: "https://www.instagram.com/iahsan01/",
     linkedin: "https://www.linkedin.com/in/mdahsanansari/",
@@ -27,7 +27,7 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "Hello! My name is Md. Ahsan Ansari, An MCA student of Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset. I'm always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
+      "Hello! My name is Md. Ahsan Ansari, An MCA student of Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset. I am skilled in full stack technologies. ",
       span: "",
       others: "I continuously strive to enhance my skills and stay updated with the latest industry trends and technologies. I enjoy new technologies and frameworks to expand my knowledge and improve my development capabilities.",
   };
