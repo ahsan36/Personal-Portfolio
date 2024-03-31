@@ -99,7 +99,7 @@ export const SubTitle = styled.div`
   width: 500px;
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-size: 18px;
-  line-height: 32px;
+  // line-height: 32px;
   margin: 50px 80px 70px 0px;
   color: #8892B0;
 
@@ -119,7 +119,7 @@ export const SubTitle = styled.div`
   @media (max-width: 450px) {
     width: 350px;
     font-size: 14px;
-    margin-left: 90px;
+    margin-left: 60px;
   }
 `;
 

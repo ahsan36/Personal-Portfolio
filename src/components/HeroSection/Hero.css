@@ -22,6 +22,7 @@
 }
 @media (max-width: 450px) {
     .name {
-        font-size: 25px !important;
+        margin-right: 50px !important;
+        font-size: 2.2rem !important;
     }
 }

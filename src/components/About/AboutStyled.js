@@ -89,10 +89,10 @@ export const AboutRightContainer = styled.div`
 export const Img = styled.img`
   position: relative;
   width: 900px;
-  height: 400px;
+  height: 300px;
   max-width: 900px;
-  max-height: 400px;
-  border-radius: 50%;
+  max-height: 300px;
+  // border-radius: 50%;
   border: 2px solid #64FFDA;
   filter: saturate(80%);
   &:hover {
@@ -112,7 +112,7 @@ export const Img = styled.img`
   }
 
   @media (max-width: 760px) {
-    max-width: 350px;
+    max-width: 300px;
     max-height: 450px;
     margin-right: 520px;
     margin-top: 40px;
@@ -141,7 +141,7 @@ export const Title = styled.div`
   font-weight: 700;
   font-size: 42px;
   color: #CCD6F6;
-  padding-bottom: 70px;
+  padding-bottom : 70px;
   text-align: center;
   @media (max-width: 960px) {
     text-align: center;
