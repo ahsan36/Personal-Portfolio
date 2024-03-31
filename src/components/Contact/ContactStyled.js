@@ -56,6 +56,10 @@ export const Desc = styled.div`
         margin-top: 12px;
         font-size: 16px;
     }
+
+    @media (max-width: 450px) {
+        font-size: 14px;
+    }
 `;
 
 export const ResumeButton =styled.a`

@@ -8,6 +8,7 @@ export const AboutContainer = styled.div`
   justify-content: center;
   padding: 80px 30px;
   padding-left: 100px;
+  margin-top: 80px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
