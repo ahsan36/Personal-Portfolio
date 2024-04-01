@@ -17,7 +17,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; Inspired by Brittany Chiang | Built by Ahsan.
+          &copy; 2024 Ahsan | All rights reserved Ahsan.
         </Copyright>
 
       </FooterWrapper>

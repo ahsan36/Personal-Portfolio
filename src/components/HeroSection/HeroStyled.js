@@ -124,7 +124,7 @@ export const SubTitle = styled.div`
 
   @media (max-width: 640px) {
     width: 350px;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 50px;
     margin-bottom: 5px;
   }
@@ -143,6 +143,10 @@ export const ResumeButton =styled.a`
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     margin-top: 50px;
+
+    &:hover {
+      background: rgb(10, 30, 47);
+    }
     
 `
 

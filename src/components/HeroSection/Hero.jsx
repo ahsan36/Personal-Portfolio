@@ -7,7 +7,7 @@ import HeroImg from '../../assets/Ahsan.png'
 
 const Hero = () => {
     return (
-        <div id='home'>
+        <div id='about'>
             <HeroContainer>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectStyled.js'
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider, ResumeButton } from './ProjectStyled.js'
 import ProjectCard from '../Cards/ProjectCards'
-import { projects } from '../../data/constants'
+import { projects, Bio } from '../../data/constants'
 import { Modal } from '@mui/material';
 import '../../App.css'
 
@@ -101,6 +101,14 @@ const Projects = () => {
                     ))
                 }
                 </CardContainer>
+
+                {/* Github Link for more projects */}
+                <ResumeButton 
+                    href={Bio.github} 
+                    target='display'
+                >
+                    More Projects
+                </ResumeButton>
             </Wrapper>
         </Container>
     )

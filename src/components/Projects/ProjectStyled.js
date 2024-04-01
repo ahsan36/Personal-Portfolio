@@ -100,3 +100,23 @@ export const CardContainer = styled.div`
     gap: 28px;
     flex-wrap: wrap;
 `;
+
+
+export const ResumeButton =styled.a`
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-top: 50px;
+
+    &:hover {
+        background: rgb(10, 30, 47);
+    }
+`

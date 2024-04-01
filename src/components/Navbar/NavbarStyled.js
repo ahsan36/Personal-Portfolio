@@ -84,6 +84,10 @@ export const GitHubButton = styled.a`
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   margin-left: 10px;
   font-size: 13px;
+
+  &:hover {
+    background: rgb(10, 30, 47);
+  }
     @media screen and (max-width: 768px) { 
     font-size: 14px;
     }
