@@ -17,7 +17,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Ahsan | All rights reserved Ahsan.
+          &copy; 2024 Ahsan | All rights reserved.
         </Copyright>
 
       </FooterWrapper>
