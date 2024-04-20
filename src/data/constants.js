@@ -8,7 +8,7 @@ export const Bio = {
       "Frontend Developer",
     ],
     description:
-      "Currently I am pursuing MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset. I am skilled in full stack technologies. I have built several web applications. I'm always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
+      "Currently I am pursuing MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ahsan36",
     insta: "https://www.instagram.com/iahsan01/",
     linkedin: "https://www.linkedin.com/in/mdahsanansari/",
