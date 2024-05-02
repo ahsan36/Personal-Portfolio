@@ -203,6 +203,11 @@ export const Bio = {
             "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
         },
         {
+          name: "Render",
+          image:
+            "https://cdn.icon-icons.com/icons2/3914/PNG/512/render_logo_icon_248664.png",
+        },
+        {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -267,6 +272,18 @@ export const Bio = {
   // ================= Projects =================
   export const projects = [
     {
+      id: 4,
+      title: "WanderLust",
+      description:
+        "Developed a full stack online marketplace website using Express.js, Node.js, Mongo DB database and CSS for styling. ",
+      image:
+        "https://news.airbnb.com/wp-content/uploads/sites/4/2022/05/Airbnb-Summer-Release-Newsroom-Header-BR.jpg?fit=3000%2C2000",
+      tags: ["Node.js", "Express.js", "MongoDB", "EJS", "HTML", "CSS", "JavaScript", "Bootstrap"],
+      category: "full stack",
+      github: "https://github.com/ahsan36/Wanderlust",
+      webapp: "https://wanderlust-cion.onrender.com/listings",
+    }, 
+    {
       id: 9,
       title: "Trend Shop",
       // date: "Jun 2023 - Jul 2023",
@@ -285,19 +302,7 @@ export const Bio = {
       category: "full stack",
       github: "https://github.com/ahsan36/Trend-Shop",
       webapp: "http://trendshop.infinityfreeapp.com/?i=1",
-    },
-    {
-      id: 4,
-      title: "WanderLust",
-      description:
-        "Developed a full stack online marketplace website using Express.js, Node.js, Mongo DB database and CSS for styling. ",
-      image:
-        "https://cdn-bganm.nitrocdn.com/ZmDMvSRyYNguYrrKjrNPPfyklVwUtrAu/assets/images/optimized/rev-8806884/migrateshop.com/file/2022/06/instant-booking-guest.webp",
-      tags: ["JavaScript", "Express.js", "Node.js", "MongoDB", "EJS", "Bootstrap"],
-      category: "full stack",
-      github: "#",
-      webapp: "#",
-    },    
+    },   
     {
       id: 0,
       title: "GroveCart",
