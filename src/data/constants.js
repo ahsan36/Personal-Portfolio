@@ -4,11 +4,11 @@ export const Bio = {
     name: "Md. Ahsan Ansari.",
     roles: [
       "Full Stack Developer",
-      "React Developer",
       "Frontend Developer",
+      "Backend Developer",
     ],
     description:
-      "Currently I am pursuing MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
+      "I have done MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ahsan36",
     insta: "https://www.instagram.com/iahsan01/",
     linkedin: "https://www.linkedin.com/in/mdahsanansari/",
@@ -47,11 +47,6 @@ export const Bio = {
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
-        {
-          name: "Next Js",
-          image:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
         },
         {
           name: "HTML",
@@ -154,11 +149,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
-        {
-          name: "Typescript",
-          image:
-            "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png",
-        },
+        // {
+        //   name: "Typescript",
+        //   image:
+        //     "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png",
+        // },
         // {
         //   name: "Kotlin",
         //   image:
@@ -203,20 +198,20 @@ export const Bio = {
             "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
         },
         {
-          name: "Render",
+          name: "Vercel",
           image:
-            "https://cdn.icon-icons.com/icons2/3914/PNG/512/render_logo_icon_248664.png",
+            "https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png",
         },
         {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
-        // {
-        //   name: "Postman",
-        //   image:
-        //     "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        // },
+        {
+          name: "Postman",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        },
         // {
         //   name: "Adobe XD",
         //   image:
@@ -260,17 +255,31 @@ export const Bio = {
   // export const education = [
   //   {
   //     id: 0,
-  //     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-  //     school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-  //     date: "Oct 2021 - Sep 2025",
-  //     grade: "8.71 CGPA",
-  //     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-  //     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4W7UTsukPd0JShvSGOt6VuoSessPIlvUiVydMWCZDmIL8oIVdrCtj_8eq9hmbaAcbd8&usqp=CAU",
+  //     school: "Quantum University, Roorkee, Uttarakhand",
+  //     date: "Sep 2022 - June 2024",
+  //     grade: "7.89 CGPA",
+  //     desc: "I have done MCA from Quantum University Roorkee, Uttarakhand. I was a member of the CodeX Club at Quantum University, where I was learned and worked on exciting projects with a team of talented developers.",
+  //     degree: "Master of Computer Application ",
   //   },
   // ];
   
   // ================= Projects =================
   export const projects = [
+
+    {
+      id: 5,
+      title: "StudyNotion",
+      description:
+        "Developed a user-friendly and fully functional ed-tech platform using MERN stack that enables users to create, consume, and rate educational content ",
+      image:
+        "https://repository-images.githubusercontent.com/661172504/e0daeca0-be4a-4e1d-9bea-067b48080758",
+      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "Tailwind CSS"],
+      category: "full stack",
+      github: "https://github.com/ahsan36/StudyNotion-EdTech-Platform",
+      webapp: "https://studynotion-by-ahsan.vercel.app/",
+    }, 
+    
     {
       id: 4,
       title: "WanderLust",
