@@ -31,11 +31,13 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
+font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+color: #CCD6F6;
+//   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -43,10 +45,12 @@ margin-top: 20px;
 `;
 
 export const Desc = styled.div`
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    // color: ${({ theme }) => theme.text_secondary};
+    color: #8892B0;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -55,7 +59,7 @@ export const Desc = styled.div`
 
 export const TimelineSection = styled.div`
     width: 100%;
-    max-width: 1000px;
+    max-width: 400px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;

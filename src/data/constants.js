@@ -8,7 +8,9 @@ export const Bio = {
       "Backend Developer",
     ],
     description:
-      "I have done MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
+      "Hi there! I'm a Full stack developer experienced in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, SQL, and more. I'm passionate about crafting seamless web experiences and constantly staying up-to-date with the latest technologies and best practices and always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
+    // description:
+    //   "I have done MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ahsan36",
     insta: "https://www.instagram.com/iahsan01/",
     linkedin: "https://www.linkedin.com/in/mdahsanansari/",
@@ -227,42 +229,42 @@ export const Bio = {
   ];
   
   // ================= Experience =================
-  // export const experiences = [
-  //   {
-  //     id: 0,
-  //     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //     role: "DevOps & Fullstack Engineering Intern",
-  //     company: "Flipr Inovations Pvt. Ltd.",
-  //     date: "Aug 2023 - July 2023",
-  //     desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-  //     skills: [
-  //       "Docker",
-  //       "Terraform",
-  //       "AWS",
-  //       "EC2",
-  //       "Portainer",
-  //       "Nginx",
-  //       "JavaScript",
-  //       "TypeScript",
-  //       "Node Js",
-  //       " Next Js",
-  //     ],
-  //     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  //   },
-  // ];
+  export const experiences = [
+    {
+      id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+      role: "DevOps & Fullstack Engineering Intern",
+      company: "Flipr Inovations Pvt. Ltd.",
+      date: "Aug 2023 - July 2023",
+      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      skills: [
+        "Docker",
+        "Terraform",
+        "AWS",
+        "EC2",
+        "Portainer",
+        "Nginx",
+        "JavaScript",
+        "TypeScript",
+        "Node Js",
+        " Next Js",
+      ],
+      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    },
+  ];
   
   // ================= Education =================
-  // export const education = [
-  //   {
-  //     id: 0,
-  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4W7UTsukPd0JShvSGOt6VuoSessPIlvUiVydMWCZDmIL8oIVdrCtj_8eq9hmbaAcbd8&usqp=CAU",
-  //     school: "Quantum University, Roorkee, Uttarakhand",
-  //     date: "Sep 2022 - June 2024",
-  //     grade: "7.89 CGPA",
-  //     desc: "I have done MCA from Quantum University Roorkee, Uttarakhand. I was a member of the CodeX Club at Quantum University, where I was learned and worked on exciting projects with a team of talented developers.",
-  //     degree: "Master of Computer Application ",
-  //   },
-  // ];
+  export const education = [
+    {
+      id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4W7UTsukPd0JShvSGOt6VuoSessPIlvUiVydMWCZDmIL8oIVdrCtj_8eq9hmbaAcbd8&usqp=CAU",
+      school: "Quantum University, Roorkee, Uttarakhand",
+      date: "Sep 2022 - July 2024",
+      grade: "7.88 CGPA",
+      desc: "I have done MCA from Quantum University Roorkee, Uttarakhand. I was a member of the CodeX Club at Quantum University, where I was learned and worked on exciting projects with a team of talented developers.",
+      degree: "Master of Computer Application ",
+    },
+  ];
   
   // ================= Projects =================
   export const projects = [

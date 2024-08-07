@@ -9,7 +9,7 @@ import Navbar from './components/Navbar/Navbar'
 import Skill from './components/Skills/Skills.jsx'
 import styled from "styled-components";
 // import Experience from './components/Experience/Experience.jsx';
-// import Education from './components/Education/Education.jsx';     
+import Education from './components/Education/Education.jsx';     
 import Contact from './components/Contact/Contact.jsx';     
 import Footer from './components/Footer/Footer.jsx';     
 import Projects from './components/Projects/Projects.jsx';
@@ -46,7 +46,7 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Wrapper>
-              {/* <Education /> */}
+              <Education /> 
               <Contact />
             </Wrapper>
             <Footer />
