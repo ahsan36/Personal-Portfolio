@@ -1,7 +1,7 @@
 import React from 'react'
 import { AboutContainer, AboutLeftContainer, Img, AboutRightContainer, AboutInnerContainer, Title, SubTitle, } from './AboutStyled';
 import { AboutDetails } from '../../data/constants';
-import HeroImg from '../../assets/Ahsan.png'
+import HeroImg from '../../assets/Ahsan.jpeg'
 import '../../App.css'
 
 const About = () => {
