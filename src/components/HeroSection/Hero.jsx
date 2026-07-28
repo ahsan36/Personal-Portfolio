@@ -3,7 +3,7 @@ import { HeroContainer, HeroLeftContainer, HeroRightContainer, Img, HeroInnerCon
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import './Hero.css'
-import HeroImg from '../../assets/Ahsan.jpeg'
+import HeroImg from '../../assets/Ahsan.png'
 
 const Hero = () => {
     return (
