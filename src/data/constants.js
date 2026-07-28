@@ -5,16 +5,16 @@ export const Bio = {
     roles: [
       "Software Engineer",
       "Full Stack Developer",
-      "AI/ML Engineer",
     ],
     description:
-      "Hi there! I'm a Software Engineer experienced in MERN Technologies and AI/ML. I'm passionate about crafting seamless web experiences and constantly staying up-to-date with the latest technologies and best practices and always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
+      "Hi there! I'm a Software Engineer experienced in Al/ML and Full Stack Technologies. I'm passionate about crafting seamless web experiences and constantly staying up-to-date with the latest technologies and best practices and always eager to expand my knowledge and take on new challenges. I am ready to make a meaningful contribution and achieve great things.",
     // description:
     //   "I have done MCA from Quantum University Roorkee, Uttarakhand. I am an enthusiastic student and always keen to learn new things and have new experiences. A quick learner with a problem-solving mindset and always eager to expand my knowledge and take on new challenges. I am skilled in full stack technologies. I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ahsan36",
     insta: "https://www.instagram.com/iahsan09/",
     linkedin: "https://www.linkedin.com/in/mdahsanansari/",
     twitter: "https://twitter.com/md_ahsan01",
+    Medium: "https://medium.com/@ahsaninfo1",
     mail: "mailto:ahsaninfo1@gmail.com",
   };
 
